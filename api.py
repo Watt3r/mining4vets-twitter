@@ -14,7 +14,7 @@ access_secret = 'YOUR-ACCESS-SECRET'
 
 # Timing vars
 completeTimerStarted = periodicTimerStarted = False # Checks to see if timers are already set
-periodicTimerFrequency = 600 # Post every 10 mins the periodicAlert
+periodicTimerFrequency = 43200 # Post every 12 hours the periodicAlert
 
 #create Twitter OAuthHandler instance and shits
 auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
